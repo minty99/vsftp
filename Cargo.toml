@@ -1,0 +1,17 @@
+[package]
+name = "vsftp"
+version = "0.1.0"
+edition = "2024"
+default-run = "vsftp"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rpassword = "7.0"
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4", features = ["derive"] }
+ssh2 = "0.9"
+skim = "0.20"
+indicatif = "0.18"
+color-eyre = "0.6"
+futures = "0.3"
